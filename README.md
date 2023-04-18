@@ -2,7 +2,7 @@
 
 ## Description
 
-In this project I had to make a quiz game from scratch using HTML, CSS, and JavaScript.
+In this project I had to make a quiz game from scratch using HTML, CSS, JavaScript, and Web API's.
 
 ## Installation
 
