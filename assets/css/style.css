@@ -1,7 +1,104 @@
 body {
-    display: flex;
-    justify-content: center;
-}
-.gameArea {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+  }
+  
+
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  
+  .gameArea {
     display: none;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(12, 12, 12, 0.2);
+  }
+
+.questions {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif; 
 }
+  
+  .answers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .answers button {
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #eee;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  .answers button:hover {
+    background-color: #ddd;
+  }
+  
+  .Timer h2{
+    text-align: center;
+  }
+  
+  .Timer p {
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .startBtn {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bolder;
+  }
+  
+  .startBtn:hover {
+    background-color: grey;
+    transition: .3s;
+  }
+  
+  
+  .HighScoreButton {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .HighScoreButton button {
+    padding: 10px 20px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+
+  }
+  
+  .HighScoreButton button:hover {
+    background-color: #ddd;
+  }
+
+
+
+
+

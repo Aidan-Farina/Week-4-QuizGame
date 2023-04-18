@@ -35,6 +35,7 @@ function startGame() {
     timerDisplay.textContent = `Seconds: ${timeLeft}`;
     if (timeLeft <= 0) {
       clearInterval(timerInterval);
+      alert('you lost')
       endGame();
     }
   }, 1000);
