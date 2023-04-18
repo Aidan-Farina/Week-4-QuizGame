@@ -34,8 +34,8 @@ function startGame() {
     timeLeft--;
     timerDisplay.textContent = `Seconds: ${timeLeft}`;
     if (timeLeft <= 0) {
+      alert('you lose')
       clearInterval(timerInterval);
-      alert('you lost')
       endGame();
     }
   }, 1000);
